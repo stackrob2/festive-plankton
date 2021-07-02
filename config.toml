@@ -1,0 +1,11 @@
+baseURL = ""
+title = "Compose Docs"
+enableRobotsTXT = true
+theme = "compose"
+enableGitInfo = true
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+themesDir = "themes"
+publishDir = "public"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
